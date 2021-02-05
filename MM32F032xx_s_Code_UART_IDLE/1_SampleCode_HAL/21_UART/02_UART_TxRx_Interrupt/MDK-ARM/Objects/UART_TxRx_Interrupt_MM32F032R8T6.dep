@@ -1,0 +1,402 @@
+Dependencies for Project 'UART_TxRx_Interrupt', Target 'MM32F032R8T6': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (..\..\..\..\3_Device\MM32F032xx_s\Source\system_MM32F032xx_s.c)(0x5EDF42BE)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\3_Device\CMSIS\KEIL_CORE -I ..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc -I ..\..\..\..\3_Device\MM32F032xx_s\Include -I ..\Peripheral\inc -I ..\BSP\inc -I ..\APP\inc-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="533"-o .\objects\system_mm32f032xx_s.o --omf_browse .\objects\system_mm32f032xx_s.crf --depend .\objects\system_mm32f032xx_s.d)
+I (..\..\..\..\3_Device\MM32F032xx_s\Include\mm32_device.h)(0x5EAA8B03)
+I (..\..\..\..\3_Device\MM32F032xx_s\Include\mm32_reg.h)(0x5EB64FCF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
+I (..\..\..\..\3_Device\MM32F032xx_s\Include\types.h)(0x5EAA8B04)
+I (..\..\..\..\3_Device\CMSIS\KEIL_CORE\core_cm0.h)(0x5E782F0C)
+I (..\..\..\..\3_Device\CMSIS\KEIL_CORE\core_cmInstr.h)(0x5E782F0C)
+I (..\..\..\..\3_Device\CMSIS\KEIL_CORE\core_cmFunc.h)(0x5E782F0C)
+I (..\..\..\..\3_Device\MM32F032xx_s\Include\mm32_reg_redefine_v1.h)(0x5EAA8A46)
+F (..\..\..\..\3_Device\MM32F032xx_s\Source\KEIL_StartAsm\startup_MM32F032xx_s_KEIL.s)(0x5EB64DF1)(--cpu Cortex-M0 -g --apcs=interwork --pd "__MICROLIB SETA 1"-IC:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 533"--list .\listings\startup_mm32f032xx_s_keil.lst --xref -o .\objects\startup_mm32f032xx_s_keil.o --depend .\objects\startup_mm32f032xx_s_keil.d)
+F (..\APP\main.c)(0x601CDDE3)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\3_Device\CMSIS\KEIL_CORE -I ..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc -I ..\..\..\..\3_Device\MM32F032xx_s\Include -I ..\Peripheral\inc -I ..\BSP\inc -I ..\APP\inc-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="533"-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (..\APP\inc\main.h)(0x601CD71D)
+I (..\APP\inc\config.h)(0x601CD71D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E8E2EB2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\HAL_conf.h)(0x5EAA940A)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\HAL_adc.h)(0x5EB52C86)
+I (..\..\..\..\3_Device\MM32F032xx_s\Include\types.h)(0x5EAA8B04)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
+I (..\..\..\..\3_Device\MM32F032xx_s\Include\mm32_device.h)(0x5EAA8B03)
+I (..\..\..\..\3_Device\MM32F032xx_s\Include\mm32_reg.h)(0x5EB64FCF)
+I (..\..\..\..\3_Device\CMSIS\KEIL_CORE\core_cm0.h)(0x5E782F0C)
+I (..\..\..\..\3_Device\CMSIS\KEIL_CORE\core_cmInstr.h)(0x5E782F0C)
+I (..\..\..\..\3_Device\CMSIS\KEIL_CORE\core_cmFunc.h)(0x5E782F0C)
+I (..\..\..\..\3_Device\MM32F032xx_s\Include\mm32_reg_redefine_v1.h)(0x5EAA8A46)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\HAL_bkp.h)(0x5EAA8B02)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\HAL_crc.h)(0x5EAA8B02)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\HAL_dbg.h)(0x5EAA8B02)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\HAL_dma.h)(0x5EAA8B02)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\HAL_exti.h)(0x5EAA8B02)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\HAL_flash.h)(0x5EAA8B02)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\HAL_gpio.h)(0x5EAA8B02)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\HAL_i2c.h)(0x5EAA8B02)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\HAL_iwdg.h)(0x5EAA8B02)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\HAL_misc.h)(0x5EAA8B02)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\HAL_pwr.h)(0x5EAA8B02)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\HAL_rcc.h)(0x5EAA8B02)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\HAL_rtc.h)(0x5EAA8B02)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\HAL_spi.h)(0x5EAA8B02)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\HAL_syscfg.h)(0x5EAA8B03)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\HAL_tim.h)(0x5EAA8B03)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\HAL_uart.h)(0x5EAA8B03)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\HAL_uid.h)(0x5EAA8B03)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\HAL_wwdg.h)(0x5EAA8B03)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\HAL_redefine_V1.H)(0x5EAA8B02)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\HAL_device.h)(0x5EAA8B02)
+I (..\Peripheral\inc\systick.h)(0x5EE0988A)
+I (..\Peripheral\inc\uart.h)(0x5EE87A7B)
+I (..\BSP\inc\bsp_led.h)(0x5EE09861)
+F (..\Peripheral\systick.c)(0x5EE0988A)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\3_Device\CMSIS\KEIL_CORE -I ..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc -I ..\..\..\..\3_Device\MM32F032xx_s\Include -I ..\Peripheral\inc -I ..\BSP\inc -I ..\APP\inc-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="533"-o .\objects\systick.o --omf_browse .\objects\systick.crf --depend .\objects\systick.d)
+I (..\Peripheral\inc\systick.h)(0x5EE0988A)
+I (..\APP\inc\config.h)(0x601CD71D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E8E2EB2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\HAL_conf.h)(0x5EAA940A)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\HAL_adc.h)(0x5EB52C86)
+I (..\..\..\..\3_Device\MM32F032xx_s\Include\types.h)(0x5EAA8B04)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
+I (..\..\..\..\3_Device\MM32F032xx_s\Include\mm32_device.h)(0x5EAA8B03)
+I (..\..\..\..\3_Device\MM32F032xx_s\Include\mm32_reg.h)(0x5EB64FCF)
+I (..\..\..\..\3_Device\CMSIS\KEIL_CORE\core_cm0.h)(0x5E782F0C)
+I (..\..\..\..\3_Device\CMSIS\KEIL_CORE\core_cmInstr.h)(0x5E782F0C)
+I (..\..\..\..\3_Device\CMSIS\KEIL_CORE\core_cmFunc.h)(0x5E782F0C)
+I (..\..\..\..\3_Device\MM32F032xx_s\Include\mm32_reg_redefine_v1.h)(0x5EAA8A46)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\HAL_bkp.h)(0x5EAA8B02)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\HAL_crc.h)(0x5EAA8B02)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\HAL_dbg.h)(0x5EAA8B02)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\HAL_dma.h)(0x5EAA8B02)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\HAL_exti.h)(0x5EAA8B02)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\HAL_flash.h)(0x5EAA8B02)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\HAL_gpio.h)(0x5EAA8B02)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\HAL_i2c.h)(0x5EAA8B02)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\HAL_iwdg.h)(0x5EAA8B02)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\HAL_misc.h)(0x5EAA8B02)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\HAL_pwr.h)(0x5EAA8B02)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\HAL_rcc.h)(0x5EAA8B02)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\HAL_rtc.h)(0x5EAA8B02)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\HAL_spi.h)(0x5EAA8B02)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\HAL_syscfg.h)(0x5EAA8B03)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\HAL_tim.h)(0x5EAA8B03)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\HAL_uart.h)(0x5EAA8B03)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\HAL_uid.h)(0x5EAA8B03)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\HAL_wwdg.h)(0x5EAA8B03)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\HAL_redefine_V1.H)(0x5EAA8B02)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\HAL_device.h)(0x5EAA8B02)
+F (..\Peripheral\uart.c)(0x601CDEE4)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\3_Device\CMSIS\KEIL_CORE -I ..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc -I ..\..\..\..\3_Device\MM32F032xx_s\Include -I ..\Peripheral\inc -I ..\BSP\inc -I ..\APP\inc-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="533"-o .\objects\uart.o --omf_browse .\objects\uart.crf --depend .\objects\uart.d)
+I (..\Peripheral\inc\uart.h)(0x5EE87A7B)
+I (..\APP\inc\config.h)(0x601CD71D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E8E2EB2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\HAL_conf.h)(0x5EAA940A)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\HAL_adc.h)(0x5EB52C86)
+I (..\..\..\..\3_Device\MM32F032xx_s\Include\types.h)(0x5EAA8B04)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
+I (..\..\..\..\3_Device\MM32F032xx_s\Include\mm32_device.h)(0x5EAA8B03)
+I (..\..\..\..\3_Device\MM32F032xx_s\Include\mm32_reg.h)(0x5EB64FCF)
+I (..\..\..\..\3_Device\CMSIS\KEIL_CORE\core_cm0.h)(0x5E782F0C)
+I (..\..\..\..\3_Device\CMSIS\KEIL_CORE\core_cmInstr.h)(0x5E782F0C)
+I (..\..\..\..\3_Device\CMSIS\KEIL_CORE\core_cmFunc.h)(0x5E782F0C)
+I (..\..\..\..\3_Device\MM32F032xx_s\Include\mm32_reg_redefine_v1.h)(0x5EAA8A46)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\HAL_bkp.h)(0x5EAA8B02)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\HAL_crc.h)(0x5EAA8B02)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\HAL_dbg.h)(0x5EAA8B02)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\HAL_dma.h)(0x5EAA8B02)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\HAL_exti.h)(0x5EAA8B02)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\HAL_flash.h)(0x5EAA8B02)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\HAL_gpio.h)(0x5EAA8B02)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\HAL_i2c.h)(0x5EAA8B02)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\HAL_iwdg.h)(0x5EAA8B02)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\HAL_misc.h)(0x5EAA8B02)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\HAL_pwr.h)(0x5EAA8B02)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\HAL_rcc.h)(0x5EAA8B02)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\HAL_rtc.h)(0x5EAA8B02)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\HAL_spi.h)(0x5EAA8B02)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\HAL_syscfg.h)(0x5EAA8B03)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\HAL_tim.h)(0x5EAA8B03)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\HAL_uart.h)(0x5EAA8B03)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\HAL_uid.h)(0x5EAA8B03)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\HAL_wwdg.h)(0x5EAA8B03)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\HAL_redefine_V1.H)(0x5EAA8B02)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\HAL_device.h)(0x5EAA8B02)
+F (..\BSP\bsp_led.c)(0x5EE0984E)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\3_Device\CMSIS\KEIL_CORE -I ..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc -I ..\..\..\..\3_Device\MM32F032xx_s\Include -I ..\Peripheral\inc -I ..\BSP\inc -I ..\APP\inc-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="533"-o .\objects\bsp_led.o --omf_browse .\objects\bsp_led.crf --depend .\objects\bsp_led.d)
+I (..\BSP\inc\bsp_led.h)(0x5EE09861)
+I (..\APP\inc\config.h)(0x601CD71D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E8E2EB2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\HAL_conf.h)(0x5EAA940A)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\HAL_adc.h)(0x5EB52C86)
+I (..\..\..\..\3_Device\MM32F032xx_s\Include\types.h)(0x5EAA8B04)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
+I (..\..\..\..\3_Device\MM32F032xx_s\Include\mm32_device.h)(0x5EAA8B03)
+I (..\..\..\..\3_Device\MM32F032xx_s\Include\mm32_reg.h)(0x5EB64FCF)
+I (..\..\..\..\3_Device\CMSIS\KEIL_CORE\core_cm0.h)(0x5E782F0C)
+I (..\..\..\..\3_Device\CMSIS\KEIL_CORE\core_cmInstr.h)(0x5E782F0C)
+I (..\..\..\..\3_Device\CMSIS\KEIL_CORE\core_cmFunc.h)(0x5E782F0C)
+I (..\..\..\..\3_Device\MM32F032xx_s\Include\mm32_reg_redefine_v1.h)(0x5EAA8A46)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\HAL_bkp.h)(0x5EAA8B02)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\HAL_crc.h)(0x5EAA8B02)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\HAL_dbg.h)(0x5EAA8B02)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\HAL_dma.h)(0x5EAA8B02)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\HAL_exti.h)(0x5EAA8B02)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\HAL_flash.h)(0x5EAA8B02)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\HAL_gpio.h)(0x5EAA8B02)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\HAL_i2c.h)(0x5EAA8B02)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\HAL_iwdg.h)(0x5EAA8B02)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\HAL_misc.h)(0x5EAA8B02)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\HAL_pwr.h)(0x5EAA8B02)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\HAL_rcc.h)(0x5EAA8B02)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\HAL_rtc.h)(0x5EAA8B02)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\HAL_spi.h)(0x5EAA8B02)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\HAL_syscfg.h)(0x5EAA8B03)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\HAL_tim.h)(0x5EAA8B03)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\HAL_uart.h)(0x5EAA8B03)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\HAL_uid.h)(0x5EAA8B03)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\HAL_wwdg.h)(0x5EAA8B03)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\HAL_redefine_V1.H)(0x5EAA8B02)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\HAL_device.h)(0x5EAA8B02)
+F (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\src\HAL_adc.c)(0x5EDEF354)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\3_Device\CMSIS\KEIL_CORE -I ..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc -I ..\..\..\..\3_Device\MM32F032xx_s\Include -I ..\Peripheral\inc -I ..\BSP\inc -I ..\APP\inc-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="533"-o .\objects\hal_adc.o --omf_browse .\objects\hal_adc.crf --depend .\objects\hal_adc.d)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\hal_adc.h)(0x5EB52C86)
+I (..\..\..\..\3_Device\MM32F032xx_s\Include\types.h)(0x5EAA8B04)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
+I (..\..\..\..\3_Device\MM32F032xx_s\Include\mm32_device.h)(0x5EAA8B03)
+I (..\..\..\..\3_Device\MM32F032xx_s\Include\mm32_reg.h)(0x5EB64FCF)
+I (..\..\..\..\3_Device\CMSIS\KEIL_CORE\core_cm0.h)(0x5E782F0C)
+I (..\..\..\..\3_Device\CMSIS\KEIL_CORE\core_cmInstr.h)(0x5E782F0C)
+I (..\..\..\..\3_Device\CMSIS\KEIL_CORE\core_cmFunc.h)(0x5E782F0C)
+I (..\..\..\..\3_Device\MM32F032xx_s\Include\mm32_reg_redefine_v1.h)(0x5EAA8A46)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\hal_rcc.h)(0x5EAA8B02)
+F (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\src\HAL_bkp.c)(0x5EAA8B03)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\3_Device\CMSIS\KEIL_CORE -I ..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc -I ..\..\..\..\3_Device\MM32F032xx_s\Include -I ..\Peripheral\inc -I ..\BSP\inc -I ..\APP\inc-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="533"-o .\objects\hal_bkp.o --omf_browse .\objects\hal_bkp.crf --depend .\objects\hal_bkp.d)
+I (..\..\..\..\3_Device\MM32F032xx_s\Include\types.h)(0x5EAA8B04)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\hal_pwr.h)(0x5EAA8B02)
+I (..\..\..\..\3_Device\MM32F032xx_s\Include\mm32_device.h)(0x5EAA8B03)
+I (..\..\..\..\3_Device\MM32F032xx_s\Include\mm32_reg.h)(0x5EB64FCF)
+I (..\..\..\..\3_Device\CMSIS\KEIL_CORE\core_cm0.h)(0x5E782F0C)
+I (..\..\..\..\3_Device\CMSIS\KEIL_CORE\core_cmInstr.h)(0x5E782F0C)
+I (..\..\..\..\3_Device\CMSIS\KEIL_CORE\core_cmFunc.h)(0x5E782F0C)
+I (..\..\..\..\3_Device\MM32F032xx_s\Include\mm32_reg_redefine_v1.h)(0x5EAA8A46)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\hal_rcc.h)(0x5EAA8B02)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\hal_bkp.h)(0x5EAA8B02)
+F (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\src\HAL_crc.c)(0x5EAA8B03)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\3_Device\CMSIS\KEIL_CORE -I ..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc -I ..\..\..\..\3_Device\MM32F032xx_s\Include -I ..\Peripheral\inc -I ..\BSP\inc -I ..\APP\inc-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="533"-o .\objects\hal_crc.o --omf_browse .\objects\hal_crc.crf --depend .\objects\hal_crc.d)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\hal_crc.h)(0x5EAA8B02)
+I (..\..\..\..\3_Device\MM32F032xx_s\Include\types.h)(0x5EAA8B04)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
+I (..\..\..\..\3_Device\MM32F032xx_s\Include\mm32_device.h)(0x5EAA8B03)
+I (..\..\..\..\3_Device\MM32F032xx_s\Include\mm32_reg.h)(0x5EB64FCF)
+I (..\..\..\..\3_Device\CMSIS\KEIL_CORE\core_cm0.h)(0x5E782F0C)
+I (..\..\..\..\3_Device\CMSIS\KEIL_CORE\core_cmInstr.h)(0x5E782F0C)
+I (..\..\..\..\3_Device\CMSIS\KEIL_CORE\core_cmFunc.h)(0x5E782F0C)
+I (..\..\..\..\3_Device\MM32F032xx_s\Include\mm32_reg_redefine_v1.h)(0x5EAA8A46)
+F (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\src\HAL_dbg.c)(0x5EAA8B03)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\3_Device\CMSIS\KEIL_CORE -I ..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc -I ..\..\..\..\3_Device\MM32F032xx_s\Include -I ..\Peripheral\inc -I ..\BSP\inc -I ..\APP\inc-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="533"-o .\objects\hal_dbg.o --omf_browse .\objects\hal_dbg.crf --depend .\objects\hal_dbg.d)
+I (..\..\..\..\3_Device\MM32F032xx_s\Include\types.h)(0x5EAA8B04)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\hal_dbg.h)(0x5EAA8B02)
+I (..\..\..\..\3_Device\MM32F032xx_s\Include\mm32_device.h)(0x5EAA8B03)
+I (..\..\..\..\3_Device\MM32F032xx_s\Include\mm32_reg.h)(0x5EB64FCF)
+I (..\..\..\..\3_Device\CMSIS\KEIL_CORE\core_cm0.h)(0x5E782F0C)
+I (..\..\..\..\3_Device\CMSIS\KEIL_CORE\core_cmInstr.h)(0x5E782F0C)
+I (..\..\..\..\3_Device\CMSIS\KEIL_CORE\core_cmFunc.h)(0x5E782F0C)
+I (..\..\..\..\3_Device\MM32F032xx_s\Include\mm32_reg_redefine_v1.h)(0x5EAA8A46)
+F (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\src\HAL_dma.c)(0x5EAA8B03)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\3_Device\CMSIS\KEIL_CORE -I ..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc -I ..\..\..\..\3_Device\MM32F032xx_s\Include -I ..\Peripheral\inc -I ..\BSP\inc -I ..\APP\inc-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="533"-o .\objects\hal_dma.o --omf_browse .\objects\hal_dma.crf --depend .\objects\hal_dma.d)
+I (..\..\..\..\3_Device\MM32F032xx_s\Include\types.h)(0x5EAA8B04)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\hal_dma.h)(0x5EAA8B02)
+I (..\..\..\..\3_Device\MM32F032xx_s\Include\mm32_device.h)(0x5EAA8B03)
+I (..\..\..\..\3_Device\MM32F032xx_s\Include\mm32_reg.h)(0x5EB64FCF)
+I (..\..\..\..\3_Device\CMSIS\KEIL_CORE\core_cm0.h)(0x5E782F0C)
+I (..\..\..\..\3_Device\CMSIS\KEIL_CORE\core_cmInstr.h)(0x5E782F0C)
+I (..\..\..\..\3_Device\CMSIS\KEIL_CORE\core_cmFunc.h)(0x5E782F0C)
+I (..\..\..\..\3_Device\MM32F032xx_s\Include\mm32_reg_redefine_v1.h)(0x5EAA8A46)
+F (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\src\HAL_exti.c)(0x5EAA8B03)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\3_Device\CMSIS\KEIL_CORE -I ..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc -I ..\..\..\..\3_Device\MM32F032xx_s\Include -I ..\Peripheral\inc -I ..\BSP\inc -I ..\APP\inc-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="533"-o .\objects\hal_exti.o --omf_browse .\objects\hal_exti.crf --depend .\objects\hal_exti.d)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\hal_exti.h)(0x5EAA8B02)
+I (..\..\..\..\3_Device\MM32F032xx_s\Include\types.h)(0x5EAA8B04)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
+I (..\..\..\..\3_Device\MM32F032xx_s\Include\mm32_device.h)(0x5EAA8B03)
+I (..\..\..\..\3_Device\MM32F032xx_s\Include\mm32_reg.h)(0x5EB64FCF)
+I (..\..\..\..\3_Device\CMSIS\KEIL_CORE\core_cm0.h)(0x5E782F0C)
+I (..\..\..\..\3_Device\CMSIS\KEIL_CORE\core_cmInstr.h)(0x5E782F0C)
+I (..\..\..\..\3_Device\CMSIS\KEIL_CORE\core_cmFunc.h)(0x5E782F0C)
+I (..\..\..\..\3_Device\MM32F032xx_s\Include\mm32_reg_redefine_v1.h)(0x5EAA8A46)
+F (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\src\HAL_flash.c)(0x5EAA8B03)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\3_Device\CMSIS\KEIL_CORE -I ..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc -I ..\..\..\..\3_Device\MM32F032xx_s\Include -I ..\Peripheral\inc -I ..\BSP\inc -I ..\APP\inc-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="533"-o .\objects\hal_flash.o --omf_browse .\objects\hal_flash.crf --depend .\objects\hal_flash.d)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\hal_flash.h)(0x5EAA8B02)
+I (..\..\..\..\3_Device\MM32F032xx_s\Include\types.h)(0x5EAA8B04)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
+I (..\..\..\..\3_Device\MM32F032xx_s\Include\mm32_device.h)(0x5EAA8B03)
+I (..\..\..\..\3_Device\MM32F032xx_s\Include\mm32_reg.h)(0x5EB64FCF)
+I (..\..\..\..\3_Device\CMSIS\KEIL_CORE\core_cm0.h)(0x5E782F0C)
+I (..\..\..\..\3_Device\CMSIS\KEIL_CORE\core_cmInstr.h)(0x5E782F0C)
+I (..\..\..\..\3_Device\CMSIS\KEIL_CORE\core_cmFunc.h)(0x5E782F0C)
+I (..\..\..\..\3_Device\MM32F032xx_s\Include\mm32_reg_redefine_v1.h)(0x5EAA8A46)
+F (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\src\HAL_gpio.c)(0x5EB52C87)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\3_Device\CMSIS\KEIL_CORE -I ..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc -I ..\..\..\..\3_Device\MM32F032xx_s\Include -I ..\Peripheral\inc -I ..\BSP\inc -I ..\APP\inc-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="533"-o .\objects\hal_gpio.o --omf_browse .\objects\hal_gpio.crf --depend .\objects\hal_gpio.d)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\hal_gpio.h)(0x5EAA8B02)
+I (..\..\..\..\3_Device\MM32F032xx_s\Include\types.h)(0x5EAA8B04)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
+I (..\..\..\..\3_Device\MM32F032xx_s\Include\mm32_device.h)(0x5EAA8B03)
+I (..\..\..\..\3_Device\MM32F032xx_s\Include\mm32_reg.h)(0x5EB64FCF)
+I (..\..\..\..\3_Device\CMSIS\KEIL_CORE\core_cm0.h)(0x5E782F0C)
+I (..\..\..\..\3_Device\CMSIS\KEIL_CORE\core_cmInstr.h)(0x5E782F0C)
+I (..\..\..\..\3_Device\CMSIS\KEIL_CORE\core_cmFunc.h)(0x5E782F0C)
+I (..\..\..\..\3_Device\MM32F032xx_s\Include\mm32_reg_redefine_v1.h)(0x5EAA8A46)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\hal_rcc.h)(0x5EAA8B02)
+F (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\src\HAL_i2c.c)(0x5EE19D62)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\3_Device\CMSIS\KEIL_CORE -I ..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc -I ..\..\..\..\3_Device\MM32F032xx_s\Include -I ..\Peripheral\inc -I ..\BSP\inc -I ..\APP\inc-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="533"-o .\objects\hal_i2c.o --omf_browse .\objects\hal_i2c.crf --depend .\objects\hal_i2c.d)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\hal_gpio.h)(0x5EAA8B02)
+I (..\..\..\..\3_Device\MM32F032xx_s\Include\types.h)(0x5EAA8B04)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
+I (..\..\..\..\3_Device\MM32F032xx_s\Include\mm32_device.h)(0x5EAA8B03)
+I (..\..\..\..\3_Device\MM32F032xx_s\Include\mm32_reg.h)(0x5EB64FCF)
+I (..\..\..\..\3_Device\CMSIS\KEIL_CORE\core_cm0.h)(0x5E782F0C)
+I (..\..\..\..\3_Device\CMSIS\KEIL_CORE\core_cmInstr.h)(0x5E782F0C)
+I (..\..\..\..\3_Device\CMSIS\KEIL_CORE\core_cmFunc.h)(0x5E782F0C)
+I (..\..\..\..\3_Device\MM32F032xx_s\Include\mm32_reg_redefine_v1.h)(0x5EAA8A46)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\hal_i2c.h)(0x5EAA8B02)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\hal_rcc.h)(0x5EAA8B02)
+F (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\src\HAL_iwdg.c)(0x5EAA8B03)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\3_Device\CMSIS\KEIL_CORE -I ..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc -I ..\..\..\..\3_Device\MM32F032xx_s\Include -I ..\Peripheral\inc -I ..\BSP\inc -I ..\APP\inc-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="533"-o .\objects\hal_iwdg.o --omf_browse .\objects\hal_iwdg.crf --depend .\objects\hal_iwdg.d)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\hal_iwdg.h)(0x5EAA8B02)
+I (..\..\..\..\3_Device\MM32F032xx_s\Include\types.h)(0x5EAA8B04)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
+I (..\..\..\..\3_Device\MM32F032xx_s\Include\mm32_device.h)(0x5EAA8B03)
+I (..\..\..\..\3_Device\MM32F032xx_s\Include\mm32_reg.h)(0x5EB64FCF)
+I (..\..\..\..\3_Device\CMSIS\KEIL_CORE\core_cm0.h)(0x5E782F0C)
+I (..\..\..\..\3_Device\CMSIS\KEIL_CORE\core_cmInstr.h)(0x5E782F0C)
+I (..\..\..\..\3_Device\CMSIS\KEIL_CORE\core_cmFunc.h)(0x5E782F0C)
+I (..\..\..\..\3_Device\MM32F032xx_s\Include\mm32_reg_redefine_v1.h)(0x5EAA8A46)
+F (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\src\HAL_misc.c)(0x5EAA8B03)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\3_Device\CMSIS\KEIL_CORE -I ..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc -I ..\..\..\..\3_Device\MM32F032xx_s\Include -I ..\Peripheral\inc -I ..\BSP\inc -I ..\APP\inc-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="533"-o .\objects\hal_misc.o --omf_browse .\objects\hal_misc.crf --depend .\objects\hal_misc.d)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\hal_misc.h)(0x5EAA8B02)
+I (..\..\..\..\3_Device\MM32F032xx_s\Include\types.h)(0x5EAA8B04)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
+I (..\..\..\..\3_Device\MM32F032xx_s\Include\mm32_device.h)(0x5EAA8B03)
+I (..\..\..\..\3_Device\MM32F032xx_s\Include\mm32_reg.h)(0x5EB64FCF)
+I (..\..\..\..\3_Device\CMSIS\KEIL_CORE\core_cm0.h)(0x5E782F0C)
+I (..\..\..\..\3_Device\CMSIS\KEIL_CORE\core_cmInstr.h)(0x5E782F0C)
+I (..\..\..\..\3_Device\CMSIS\KEIL_CORE\core_cmFunc.h)(0x5E782F0C)
+I (..\..\..\..\3_Device\MM32F032xx_s\Include\mm32_reg_redefine_v1.h)(0x5EAA8A46)
+F (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\src\HAL_pwr.c)(0x5EAA8B03)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\3_Device\CMSIS\KEIL_CORE -I ..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc -I ..\..\..\..\3_Device\MM32F032xx_s\Include -I ..\Peripheral\inc -I ..\BSP\inc -I ..\APP\inc-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="533"-o .\objects\hal_pwr.o --omf_browse .\objects\hal_pwr.crf --depend .\objects\hal_pwr.d)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\hal_pwr.h)(0x5EAA8B02)
+I (..\..\..\..\3_Device\MM32F032xx_s\Include\types.h)(0x5EAA8B04)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
+I (..\..\..\..\3_Device\MM32F032xx_s\Include\mm32_device.h)(0x5EAA8B03)
+I (..\..\..\..\3_Device\MM32F032xx_s\Include\mm32_reg.h)(0x5EB64FCF)
+I (..\..\..\..\3_Device\CMSIS\KEIL_CORE\core_cm0.h)(0x5E782F0C)
+I (..\..\..\..\3_Device\CMSIS\KEIL_CORE\core_cmInstr.h)(0x5E782F0C)
+I (..\..\..\..\3_Device\CMSIS\KEIL_CORE\core_cmFunc.h)(0x5E782F0C)
+I (..\..\..\..\3_Device\MM32F032xx_s\Include\mm32_reg_redefine_v1.h)(0x5EAA8A46)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\hal_rcc.h)(0x5EAA8B02)
+F (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\src\HAL_rcc.c)(0x5EAA9B0E)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\3_Device\CMSIS\KEIL_CORE -I ..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc -I ..\..\..\..\3_Device\MM32F032xx_s\Include -I ..\Peripheral\inc -I ..\BSP\inc -I ..\APP\inc-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="533"-o .\objects\hal_rcc.o --omf_browse .\objects\hal_rcc.crf --depend .\objects\hal_rcc.d)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\hal_rcc.h)(0x5EAA8B02)
+I (..\..\..\..\3_Device\MM32F032xx_s\Include\types.h)(0x5EAA8B04)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
+I (..\..\..\..\3_Device\MM32F032xx_s\Include\mm32_device.h)(0x5EAA8B03)
+I (..\..\..\..\3_Device\MM32F032xx_s\Include\mm32_reg.h)(0x5EB64FCF)
+I (..\..\..\..\3_Device\CMSIS\KEIL_CORE\core_cm0.h)(0x5E782F0C)
+I (..\..\..\..\3_Device\CMSIS\KEIL_CORE\core_cmInstr.h)(0x5E782F0C)
+I (..\..\..\..\3_Device\CMSIS\KEIL_CORE\core_cmFunc.h)(0x5E782F0C)
+I (..\..\..\..\3_Device\MM32F032xx_s\Include\mm32_reg_redefine_v1.h)(0x5EAA8A46)
+F (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\src\HAL_rtc.c)(0x5EAA8B03)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\3_Device\CMSIS\KEIL_CORE -I ..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc -I ..\..\..\..\3_Device\MM32F032xx_s\Include -I ..\Peripheral\inc -I ..\BSP\inc -I ..\APP\inc-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="533"-o .\objects\hal_rtc.o --omf_browse .\objects\hal_rtc.crf --depend .\objects\hal_rtc.d)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\hal_rtc.h)(0x5EAA8B02)
+I (..\..\..\..\3_Device\MM32F032xx_s\Include\types.h)(0x5EAA8B04)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
+I (..\..\..\..\3_Device\MM32F032xx_s\Include\mm32_device.h)(0x5EAA8B03)
+I (..\..\..\..\3_Device\MM32F032xx_s\Include\mm32_reg.h)(0x5EB64FCF)
+I (..\..\..\..\3_Device\CMSIS\KEIL_CORE\core_cm0.h)(0x5E782F0C)
+I (..\..\..\..\3_Device\CMSIS\KEIL_CORE\core_cmInstr.h)(0x5E782F0C)
+I (..\..\..\..\3_Device\CMSIS\KEIL_CORE\core_cmFunc.h)(0x5E782F0C)
+I (..\..\..\..\3_Device\MM32F032xx_s\Include\mm32_reg_redefine_v1.h)(0x5EAA8A46)
+F (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\src\HAL_spi.c)(0x5EAA8B03)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\3_Device\CMSIS\KEIL_CORE -I ..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc -I ..\..\..\..\3_Device\MM32F032xx_s\Include -I ..\Peripheral\inc -I ..\BSP\inc -I ..\APP\inc-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="533"-o .\objects\hal_spi.o --omf_browse .\objects\hal_spi.crf --depend .\objects\hal_spi.d)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\hal_spi.h)(0x5EAA8B02)
+I (..\..\..\..\3_Device\MM32F032xx_s\Include\types.h)(0x5EAA8B04)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
+I (..\..\..\..\3_Device\MM32F032xx_s\Include\mm32_device.h)(0x5EAA8B03)
+I (..\..\..\..\3_Device\MM32F032xx_s\Include\mm32_reg.h)(0x5EB64FCF)
+I (..\..\..\..\3_Device\CMSIS\KEIL_CORE\core_cm0.h)(0x5E782F0C)
+I (..\..\..\..\3_Device\CMSIS\KEIL_CORE\core_cmInstr.h)(0x5E782F0C)
+I (..\..\..\..\3_Device\CMSIS\KEIL_CORE\core_cmFunc.h)(0x5E782F0C)
+I (..\..\..\..\3_Device\MM32F032xx_s\Include\mm32_reg_redefine_v1.h)(0x5EAA8A46)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\hal_rcc.h)(0x5EAA8B02)
+F (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\src\HAL_tim.c)(0x5EB52C87)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\3_Device\CMSIS\KEIL_CORE -I ..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc -I ..\..\..\..\3_Device\MM32F032xx_s\Include -I ..\Peripheral\inc -I ..\BSP\inc -I ..\APP\inc-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="533"-o .\objects\hal_tim.o --omf_browse .\objects\hal_tim.crf --depend .\objects\hal_tim.d)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\hal_rcc.h)(0x5EAA8B02)
+I (..\..\..\..\3_Device\MM32F032xx_s\Include\types.h)(0x5EAA8B04)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
+I (..\..\..\..\3_Device\MM32F032xx_s\Include\mm32_device.h)(0x5EAA8B03)
+I (..\..\..\..\3_Device\MM32F032xx_s\Include\mm32_reg.h)(0x5EB64FCF)
+I (..\..\..\..\3_Device\CMSIS\KEIL_CORE\core_cm0.h)(0x5E782F0C)
+I (..\..\..\..\3_Device\CMSIS\KEIL_CORE\core_cmInstr.h)(0x5E782F0C)
+I (..\..\..\..\3_Device\CMSIS\KEIL_CORE\core_cmFunc.h)(0x5E782F0C)
+I (..\..\..\..\3_Device\MM32F032xx_s\Include\mm32_reg_redefine_v1.h)(0x5EAA8A46)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\hal_tim.h)(0x5EAA8B03)
+F (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\src\HAL_uart.c)(0x5EAA8B03)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\3_Device\CMSIS\KEIL_CORE -I ..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc -I ..\..\..\..\3_Device\MM32F032xx_s\Include -I ..\Peripheral\inc -I ..\BSP\inc -I ..\APP\inc-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="533"-o .\objects\hal_uart.o --omf_browse .\objects\hal_uart.crf --depend .\objects\hal_uart.d)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\hal_rcc.h)(0x5EAA8B02)
+I (..\..\..\..\3_Device\MM32F032xx_s\Include\types.h)(0x5EAA8B04)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
+I (..\..\..\..\3_Device\MM32F032xx_s\Include\mm32_device.h)(0x5EAA8B03)
+I (..\..\..\..\3_Device\MM32F032xx_s\Include\mm32_reg.h)(0x5EB64FCF)
+I (..\..\..\..\3_Device\CMSIS\KEIL_CORE\core_cm0.h)(0x5E782F0C)
+I (..\..\..\..\3_Device\CMSIS\KEIL_CORE\core_cmInstr.h)(0x5E782F0C)
+I (..\..\..\..\3_Device\CMSIS\KEIL_CORE\core_cmFunc.h)(0x5E782F0C)
+I (..\..\..\..\3_Device\MM32F032xx_s\Include\mm32_reg_redefine_v1.h)(0x5EAA8A46)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\hal_uart.h)(0x5EAA8B03)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\hal_gpio.h)(0x5EAA8B02)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\hal_dma.h)(0x5EAA8B02)
+F (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\src\HAL_uid.c)(0x5EAA8B03)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\3_Device\CMSIS\KEIL_CORE -I ..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc -I ..\..\..\..\3_Device\MM32F032xx_s\Include -I ..\Peripheral\inc -I ..\BSP\inc -I ..\APP\inc-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="533"-o .\objects\hal_uid.o --omf_browse .\objects\hal_uid.crf --depend .\objects\hal_uid.d)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\hal_uid.h)(0x5EAA8B03)
+I (..\..\..\..\3_Device\MM32F032xx_s\Include\types.h)(0x5EAA8B04)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
+I (..\..\..\..\3_Device\MM32F032xx_s\Include\mm32_device.h)(0x5EAA8B03)
+I (..\..\..\..\3_Device\MM32F032xx_s\Include\mm32_reg.h)(0x5EB64FCF)
+I (..\..\..\..\3_Device\CMSIS\KEIL_CORE\core_cm0.h)(0x5E782F0C)
+I (..\..\..\..\3_Device\CMSIS\KEIL_CORE\core_cmInstr.h)(0x5E782F0C)
+I (..\..\..\..\3_Device\CMSIS\KEIL_CORE\core_cmFunc.h)(0x5E782F0C)
+I (..\..\..\..\3_Device\MM32F032xx_s\Include\mm32_reg_redefine_v1.h)(0x5EAA8A46)
+F (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\src\HAL_ver.c)(0x5EB64AB2)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\3_Device\CMSIS\KEIL_CORE -I ..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc -I ..\..\..\..\3_Device\MM32F032xx_s\Include -I ..\Peripheral\inc -I ..\BSP\inc -I ..\APP\inc-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="533"-o .\objects\hal_ver.o --omf_browse .\objects\hal_ver.crf --depend .\objects\hal_ver.d)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\hal_ver.h)(0x5EAA8B03)
+I (..\..\..\..\3_Device\MM32F032xx_s\Include\mm32_device.h)(0x5EAA8B03)
+I (..\..\..\..\3_Device\MM32F032xx_s\Include\mm32_reg.h)(0x5EB64FCF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
+I (..\..\..\..\3_Device\MM32F032xx_s\Include\types.h)(0x5EAA8B04)
+I (..\..\..\..\3_Device\CMSIS\KEIL_CORE\core_cm0.h)(0x5E782F0C)
+I (..\..\..\..\3_Device\CMSIS\KEIL_CORE\core_cmInstr.h)(0x5E782F0C)
+I (..\..\..\..\3_Device\CMSIS\KEIL_CORE\core_cmFunc.h)(0x5E782F0C)
+I (..\..\..\..\3_Device\MM32F032xx_s\Include\mm32_reg_redefine_v1.h)(0x5EAA8A46)
+F (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\src\HAL_wwdg.c)(0x5EAA8B03)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\3_Device\CMSIS\KEIL_CORE -I ..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc -I ..\..\..\..\3_Device\MM32F032xx_s\Include -I ..\Peripheral\inc -I ..\BSP\inc -I ..\APP\inc-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="533"-o .\objects\hal_wwdg.o --omf_browse .\objects\hal_wwdg.crf --depend .\objects\hal_wwdg.d)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\hal_wwdg.h)(0x5EAA8B03)
+I (..\..\..\..\3_Device\MM32F032xx_s\Include\types.h)(0x5EAA8B04)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
+I (..\..\..\..\3_Device\MM32F032xx_s\Include\mm32_device.h)(0x5EAA8B03)
+I (..\..\..\..\3_Device\MM32F032xx_s\Include\mm32_reg.h)(0x5EB64FCF)
+I (..\..\..\..\3_Device\CMSIS\KEIL_CORE\core_cm0.h)(0x5E782F0C)
+I (..\..\..\..\3_Device\CMSIS\KEIL_CORE\core_cmInstr.h)(0x5E782F0C)
+I (..\..\..\..\3_Device\CMSIS\KEIL_CORE\core_cmFunc.h)(0x5E782F0C)
+I (..\..\..\..\3_Device\MM32F032xx_s\Include\mm32_reg_redefine_v1.h)(0x5EAA8A46)
+I (..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc\hal_rcc.h)(0x5EAA8B02)
+F (..\readme.txt)(0x5EC38896)()
